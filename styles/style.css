@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Varela+Round&display=swap');
+
+html {
+	--c1: #bbf9ff;
+	--c2: #9CFC97;
+	--c3: #6BA368;
+	--c4: #515B3A;
+	--c5: #353D2F;
+}
+
+html {
+	background: linear-gradient(
+		23deg,
+		var(--c4),
+		var(--c3),
+		var(--c2)
+	);
+
+	overflow-x: hidden;
+}
+
+.bg {
+	position: absolute;
+  z-index: 2;
+}
+
+.bg > svg,
+.bg > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: var(--c3);
+	width: 5rem;
+	height: 5rem;
+	filter: hue-rotate(20);
+}
+
+.title_wrapper {
+	display: flex;
+ 	flex-direction: column;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.title_wrapper svg {
+	border-radius: 5px;
+	position: absolute;
+	background: #a7deff;
+	fill: #8aff8a;
+}
+
+.caution {
+	font-size: 1.5rem;
+	color: var(--c4);
+	text-shadow: 1px 1px black;
+}
+
+.title {
+	z-index: 1;
+	font-family: "Cherry Bomb One", system-ui;
+	font-weight: bold;
+	font-size: 6rem;
+	text-align: center;
+	text-shadow: 5px 5px black;
+		color: var(--c3);
+}
+
+.secondary_wrapper {
+	margin-top: 2rem;
+	position: relative;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.secondary_title_wrapper {
+display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4rem;
+}
+
+.secondary_title {
+background: var(--c3);
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  padding: 3rem;
+  width: fit-content;
+  color: var(--c2);
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  z-index: 2;
+  position: relative;
+}
+
+.road_wrapper {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.road_vertical {
+	flex-direction: column;
+	width: 20rem;
+  	height: fit-content;
+}
+
+.road_horizontal {
+	flex-direction: row;
+	width: fit-content;
+  	height: 20rem;
+}
+
+.road_wrapper > div {
+	z-index: 4;
+  background: #909090;
+  transform: translate(0, -1rem);
+  box-shadow: 5px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.road_vertical .line {
+	margin: 2rem 0;
+	width: 2rem;
+	height: 5rem;
+	background-color: rgb(255, 255, 147);
+	border-radius: 5px;
+}
+
+.road_horizontal .line {
+	margin: 0 2rem;
+	width: 5rem;
+	height: 2rem;
+	background-color: rgb(255, 255, 147);
+	border-radius: 5px;
+}
+
+.road_data {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: rgb(79, 185, 79);
+	border-radius: 5px;
+
+	box-shadow: 5px 5px;
+}
+
+.road_data_1 {
+	transform: translate(100%, 100%);
+	padding: 2rem;
+	margin: -5rem;
+}
+.road_data_2 {
+	transform: translate(-300%, 50%);
+	padding: 2rem;
+	margin: 5rem;
+}
+.road_data_3 {
+	transform: translate(-185%, 100%);
+	padding: 2rem;
+	margin: 5rem;
+}
+
+
+
+.road_data > img {
+	width: 5rem;
+	border-radius: 5px;
+}
+
+.road_data > p {
+	font-weight: bold;
+	color: black;
+	font-size: .8rem;
+	font-family: "Varela Round", sans-serif;
+}
+
+
+.road_2 {
+	margin-left: 27%;
+}
+
+.road_3 {
+	margin-left: 54%;
+}
+
+.road_5 {
+	margin-right: 58%;
+}
+
+.road_6 {
+	margin-right: 30%;
+}
+
+.road_sign {
+	z-index: 1000;
+	top: 0;
+}
+
+.road_sign > p {
+	position: absolute;
+	left: 0;
+	transform: translate(-50%, 50%);
+	padding: 1rem;
+	border-radius: 5px;
+	background: #ff8282;
+	color: #621212;
+	box-shadow: 5px 5px;
+	font-family: "Varela Round", sans-serif;
+}
+
+.end_of_road {
+	position: relative;
+	z-index: 3;
+	padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--c5);
+  border-radius: 5px;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  box-shadow: 5px 5px black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.end_of_road h3 {
+	font-family: "Varela Round", sans-serif;
+	color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.end_of_road p {
+	font-family: "Varela Round", sans-serif;
+	color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
