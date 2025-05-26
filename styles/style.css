@@ -71,6 +71,8 @@ html {
 	width: 100%;
 	padding: 5px;
 	box-sizing: border-box;
+z-index: 6;
+  position: relative;
 }
 
 .secondary_title_wrapper {
@@ -142,35 +144,89 @@ background: var(--c3);
 }
 
 .road_data {
-	position: absolute;
-	top: 0;
-	right: 0;
-	background: rgb(79, 185, 79);
-	border-radius: 5px;
-
-	box-shadow: 5px 5px;
+position: absolute;
+  top: 0;
+  right: 0;
+  background: rgb(79, 185, 79);
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .road_data_1 {
-	transform: translate(100%, 100%);
+	transform: translate(100%, 0%);
 	padding: 2rem;
 	margin: -5rem;
 }
 .road_data_2 {
-	transform: translate(-300%, 50%);
+	transform: translate(-300%, 25%);
 	padding: 2rem;
 	margin: 5rem;
 }
 .road_data_3 {
-	transform: translate(-185%, 100%);
+	transform: translate(-220%, 175%);
 	padding: 2rem;
 	margin: 5rem;
 }
+.road_data_4 {
+left: 0;
+  transform: translate(-120%, 25%);
+  width: fit-content;
+}
+.road_data_5 {
+	transform: translate(50%, -125%);
+}
+.road_data_6 {
+left: 0;
+  transform: translate(-150%, 20%);
+  width: fit-content;}
 
+.road_data_7 {
+  transform: translate(10%, 240%);
+  width: fit-content;}
+
+  .road_data_8 {
+	  transform: translate(120%, 30%);
+  width: fit-content;
+  }
+  .road_data_10 {
+	  transform: translate(120%, -70%);
+  width: fit-content;
+  }
+
+  .road_data_11 {
+	  transform: translate(20%, -170%);
+  width: fit-content;
+  }
+
+  .road_data_12 {
+	  transform: translate(150%, 50%);
+  width: fit-content;
+  }
+
+  .road_data_13 {
+	  transform: translate(-150%, 50%);
+  width: fit-content;
+  }
+
+  .road_data_14 {
+	  transform: translate(150%, 100%);
+  width: fit-content;
+  }
+
+  .road_data_15 {
+	  transform: translate(-130%, 250%);
+  width: fit-content;
+  }
 
 
 .road_data > img {
-	width: 5rem;
+	width: 7rem;
 	border-radius: 5px;
 }
 
