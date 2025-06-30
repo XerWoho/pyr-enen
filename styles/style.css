@@ -208,11 +208,11 @@ left: 0;
 }
 
 .road_data_7 {
-  transform: translate(10%, 240%);
+  transform: translate(-50%, 240%);
   width: fit-content;}
 
   .road_data_8 {
-	  transform: translate(120%, 30%);
+	  transform: translate(120%, -20%);
   width: fit-content;
   }
   .road_data_10 {
