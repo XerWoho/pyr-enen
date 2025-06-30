@@ -189,22 +189,23 @@ position: absolute;
 	margin: 5rem;
 }
 .road_data_3 {
-	transform: translate(-220%, 175%);
+	transform: translate(-120%, 175%);
 	padding: 2rem;
 	margin: 5rem;
 }
 .road_data_4 {
 left: 0;
-  transform: translate(-120%, 25%);
+  transform: translate(-70%, 25%);
   width: fit-content;
 }
 .road_data_5 {
 	transform: translate(50%, -125%);
 }
 .road_data_6 {
-left: 0;
-  transform: translate(-150%, 20%);
-  width: fit-content;}
+	left: 0;
+	transform: translate(-50%, 20%);
+	width: fit-content;
+}
 
 .road_data_7 {
   transform: translate(10%, 240%);
@@ -225,22 +226,22 @@ left: 0;
   }
 
   .road_data_12 {
-	  transform: translate(150%, 50%);
+	  transform: translate(60%, 50%);
   width: fit-content;
   }
 
   .road_data_13 {
-	  transform: translate(-150%, 50%);
+	  transform: translate(-30%, 50%);
   width: fit-content;
   }
 
   .road_data_14 {
-	  transform: translate(150%, 100%);
+	  transform: translate(120%, 100%);
   width: fit-content;
   }
 
   .road_data_15 {
-	  transform: translate(-130%, 250%);
+	  transform: translate(-110%, 250%);
   width: fit-content;
   }
 
