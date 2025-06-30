@@ -323,3 +323,33 @@ left: 0;
   font-size: 0.7rem;
   font-weight: bold;
 }
+
+.fran {
+	display: block;
+}
+.de {
+	display: none;
+}
+
+.switch {
+	background-color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px;
+  border: 2px solid black;
+  padding: 1rem;
+  width: fit-content;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  z-index: 2;
+  position: relative;
+  cursor: pointer;
+  transition: .3s;
+  z-index: 999999;
+  position: relative;
+}
+
+.switch:hover {
+	filter: brightness(.8);
+}

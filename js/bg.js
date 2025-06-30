@@ -18,3 +18,28 @@ for(let i = 0; i < 30; i++) {
 
 	BG.append(img)
 }
+
+const switchs = document.querySelector(".switch")
+var s = "fr"
+switchs.addEventListener("click", () => {
+	if(s == "fr") {
+		s = "de"
+		document.querySelectorAll(".fran").forEach(l => {
+			l.style.display = "none"
+		})
+		document.querySelectorAll(".de").forEach(l => {
+			l.style.display = "block"
+		})
+		switchs.textContent = "in französisch"
+	} else {
+		s = "fr"
+				document.querySelectorAll(".fran").forEach(l => {
+			l.style.display = "block"
+		})
+		document.querySelectorAll(".de").forEach(l => {
+			l.style.display = "none"
+		})
+		switchs.textContent = "en allemand"
+
+	}
+})
