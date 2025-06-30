@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Varela+Round&display=swap');
 
+@media(width < 1000px) {
+	.road_vertical {
+				margin: 0 !important;
+	}
+	.road_horizontal {
+		flex-direction: column !important;
+		width: 20rem !important;
+		height: fit-content !important;
+		margin: 0 !important;
+	}
+
+	.road_horizontal .line {
+		margin: 2rem 0 !important;
+		width: 2rem !important;
+		height: 5rem !important;
+		background-color: rgb(255, 255, 147) !important;
+		border-radius: 5px !important;
+	}
+}
+
 html {
 	--c1: #bbf9ff;
 	--c2: #9CFC97;

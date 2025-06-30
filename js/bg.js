@@ -3,6 +3,11 @@ const BG = document.querySelector(".bg")
 for(let i = 0; i < 30; i++) {
 	const img = document.createElement("img")
 	img.src = `assets/tree_${Math.floor(Math.random() * 3)}.svg`
+
+	let margin_top = Math.floor(Math.random() * document.body.clientHeight / 1.3)
+	if(margin_top > 1500) {
+		margin_top = 1500
+	}
 	img.style.marginTop = `${Math.floor(Math.random() * document.body.clientHeight / 1.3)}px`
 	img.style.marginLeft = `${Math.floor(Math.random() * document.body.clientWidth / 1)}px`
 
